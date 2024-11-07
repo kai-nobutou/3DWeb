@@ -1,0 +1,22 @@
+
+.kai-box {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+    color: #ffffff;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in; 
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}

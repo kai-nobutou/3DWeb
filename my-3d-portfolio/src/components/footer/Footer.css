@@ -1,0 +1,26 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    position: relative;
+    width: 100%; /* 横幅を100%に広げる */
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #61dafb;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #21a1f1;
+}
